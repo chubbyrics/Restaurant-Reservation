@@ -12,7 +12,10 @@
   "type": "commonjs",
   "dependencies": {
     "body-parser": "^2.2.0",
+<<<<<<< HEAD
     "cors": "^2.8.5",
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
     "express": "^5.1.0"
   }
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
     <!-- 
         Basic meta tags for character encoding and responsive viewport 
         Title displays in browser tab
@@ -16,6 +17,13 @@
             - Background uses a semi-transparent overlay with restaurant image
             - Ensures full viewport height
         */
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Table Reservation</title>
+    <style>
+       
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         body {
             font-family: 'Segoe UI', system-ui, sans-serif;
             max-width: 1200px;
@@ -33,11 +41,14 @@
             min-height: 100vh;
         }
 
+<<<<<<< HEAD
         /* 
             MAIN HEADING STYLE 
             - Dark color for good contrast
             - Centered with decorative bottom border
         */
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         h1 {
             color: #2c3e50;
             text-align: center;
@@ -46,12 +57,16 @@
             margin-bottom: 30px;
         }
 
+<<<<<<< HEAD
         /* 
             CARD STYLE FOR SECTIONS
             - Frosted glass effect with semi-transparent background
             - Subtle border and shadow for depth
             - Backdrop-filter for modern blur effect
         */
+=======
+     
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         .card-style-1 {
             background-color: rgba(255, 255, 255, 0.55);
             backdrop-filter: blur(5px);
@@ -59,23 +74,30 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.08);
         }
 
+<<<<<<< HEAD
         /* 
             LAYOUT CONTAINER
             - Flexbox for responsive columns
             - Gap between sections for breathing room
         */
+=======
+
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         .container {
             display: flex;
             gap: 20px;
             margin-bottom: 20px;
         }
 
+<<<<<<< HEAD
         /* 
             SECTION STYLING
             - Equal flex distribution
             - Padding and rounded corners
             - Smooth transition for hover effects
         */
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         .section {
             flex: 1;
             padding: 20px;
@@ -83,10 +105,14 @@
             transition: all 0.3s ease;
         }
 
+<<<<<<< HEAD
         /* 
             ACTIVE SECTION STYLE
             - Enhanced version of card-style for visual hierarchy
         */
+=======
+   
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         .active-style {
             background-color: rgba(255, 255, 255, 0.55);
             backdrop-filter: blur(5px);
@@ -94,11 +120,14 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.08);
         }
 
+<<<<<<< HEAD
         /* 
             TABLE STYLING
             - Full width tables with clean borders
             - Special styling for header row
         */
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         table {
             width: 100%;
             border-collapse: collapse;
@@ -118,12 +147,16 @@
             font-weight: 500;
         }
 
+<<<<<<< HEAD
         /* 
             FORM ELEMENTS
             - Vertical stack layout
             - Consistent spacing between fields
             - Accessible label styling
         */
+=======
+        /* Form elements */
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         form {
             display: flex;
             flex-direction: column;
@@ -144,12 +177,15 @@
             transition: all 0.3s;
         }
 
+<<<<<<< HEAD
         /* 
             BUTTON STYLING
             - Primary action color (orange)
             - Hover effects with color darkening and slight lift
             - Cursor change to indicate clickability
         */
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         button {
             background: #e07a5f;
             color: white;
@@ -166,6 +202,7 @@
             background: #c45a3f;
             transform: translateY(-2px);
         }
+<<<<<<< HEAD
     </style>
 </head>
 <body>
@@ -184,15 +221,27 @@
             AVAILABLE TABLES SECTION 
             Displays current table availability (populated by JavaScript)
         -->
+=======
+
+    </style>
+</head>
+<body>
+    <h1>Restaurant Table Reservation System</h1>
+    
+    <div class="container">
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         <div class="section card-style-1 active-style">
             <h2>Available Tables</h2>
             <div id="tables-list"></div>
         </div>
         
+<<<<<<< HEAD
         <!-- 
             RESERVATION FORM SECTION
             Form for making new reservations with validation
         -->
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
         <div class="section card-style-1 active-style">
             <h2>Make Reservation</h2>
             <form id="reservation-form">
@@ -208,7 +257,10 @@
                 <label for="tableNumber">Table Number:</label>
                 <select id="tableNumber" required>
                     <option value="">Select a table</option>
+<<<<<<< HEAD
                     <!-- Options will be populated by JavaScript -->
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
                 </select>
                 
                 <button type="submit">Reserve Table</button>
@@ -217,14 +269,18 @@
         </div>
     </div>
     
+<<<<<<< HEAD
     <!-- 
         RESERVATIONS LIST SECTION
         Displays all current reservations (populated by JavaScript)
     -->
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
     <div class="section card-style-1 active-style">
         <h2>Current Reservations</h2>
         <div id="reservations-list"></div>
     </div>
+<<<<<<< HEAD
     
     <!-- 
         JAVASCRIPT FILE LINK
@@ -233,6 +289,8 @@
         - Handling reservations
         - Updating the UI
     -->
+=======
+>>>>>>> 4a644d0c61e1ae161cd23b79e2a9edf56f8c9f50
     <script src="app.js"></script>
 </body>
 </html>
